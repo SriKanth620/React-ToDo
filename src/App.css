@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Unica+One&display=swap');
+*{
+  margin: 0%;
+  box-sizing: border-box;
+  padding: 0px;
+}
+body{
+  background-color: rgb(35,97,204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+.App{
+  text-align: center;
+  background-color: rgb(255,255,255);
+  width: 360px;
+  margin-top: 50px;
+  border-radius: 7px;
+}
+.Todo{
+  padding: 25px 15px;
+}
+
+img{
+  width: 300px;
+  margin: 20px;
+
+}
+.input{
+  border: 1px solid rgb(35,97,204);
+  margin-right: 10px;
+  height: 35px;
+  padding: 3px;
+  width: 240px;
+  
+}
+
+button{
+  padding: 9px 20px;
+  background-color: rgb(44,107,236);
+  color: whitesmoke;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+button:hover{
+ background-color: inherit; 
+ color: rgb(44,107,236);
+ border: 1px solid rgb(44,107,236);
+}
+.Delete, .Done, .Edit{
+  width: 28px;
+  background-color: #88c2f8;
+  border: 1px solid rgb(124, 130, 141);
+  border-radius: 3px;
+  margin: 0px;
+  margin-right: 5px;
+}
+.Delete:hover, .Done:hover, .Edit:hover{
+  background-color: initial;
+}
+.Completed{
+  text-decoration: line-through;
+}
+
+#work{
+  width: 200px;
+  background-color: rgb(197,224,229);
+  height: 35px;
+  padding: 3px;
+  border: none;
+  margin-right: 5px;
+}
+li{
+  list-style-type:none;
+  width: 315px;
+  display: flex;
+  border: 1px solid rgb(124, 130, 141);
+  border-radius: 2px;
+  background-color: rgb(197,224,229);
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px 0px;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 38px;
+}
+p{
+  margin-top: 1rem;
+  color: whitesmoke;
+  font-family: 'Handjet', cursive;
+  font-family: 'Unica One', cursive;
+  
+}
+h1{
+  margin-bottom: 10px;
+  font-family: 'Handjet', cursive;
+  font-family: 'Unica One', cursive;
+  
+}
+@media only screen and (min-width: 650px) {
+  .App{
+    width: 530px;
+    margin-top: 60px;
+    border-radius: 7px;
+  }
+  img{
+    width: 330px;
+  }
+  .input{
+    height: 36px;
+    padding: 4px;
+    width: 352px;
+  }
+  
+button{
+  padding: 10px 22px;
+}
+
+.Delete, .Done, .Edit{
+  width: 29px;
+}
+#work{
+  width: 314px;
+  height: 36px;
+}
+li{
+  width: 431px;
+  height: fit-content;
+}
+  
+}
+/* rgb(44,107,236) - blue */
