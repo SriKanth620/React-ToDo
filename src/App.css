@@ -15,8 +15,8 @@ body{
 .App{
   text-align: center;
   background-color: rgb(255,255,255);
-  width: 360px;
-  margin-top: 50px;
+  width: 332px;
+  margin-top: 65px;
   border-radius: 7px;
 }
 .Todo{
@@ -33,7 +33,7 @@ img{
   margin-right: 10px;
   height: 35px;
   padding: 3px;
-  width: 240px;
+  width: 222px;
   
 }
 
@@ -65,7 +65,7 @@ button:hover{
 }
 
 #work{
-  width: 200px;
+  width: 185px;
   background-color: rgb(197,224,229);
   height: 35px;
   padding: 3px;
